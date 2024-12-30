@@ -1,0 +1,90 @@
+
+section{
+    box-sizing: border-box;
+    width: 85%;
+    margin: 20px auto;
+    font-family: "Merriweather", serif;
+    
+    
+}
+
+
+.banner{
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(./Image/banner.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    /* object-fit: cover; */
+    text-align: center;
+    padding-top: 120px;
+    
+}
+
+
+.banner h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 20px;
+  
+}
+.banner p{
+    color: white;
+ 
+}
+.travel{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.586);
+    padding: 20px;
+    margin-left: 22%;
+    border-radius: 15px;
+}
+.travel .banner-btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 10px;
+    padding-left: 15px;
+    
+}
+
+.btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #ff5400;
+    color: white;
+    font-size: 18px;
+    
+}
+.btn:hover{
+    background-color: red;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 576px){
+
+     
+    .banner h1{
+        font-size: 40px;
+        color: black;
+    }
+    .banner p{
+        color: black;
+    }
+
+    .travel{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner{
+        height: auto;
+        padding-top: 30px;
+        
+    }
+}

@@ -1,0 +1,65 @@
+
+.popular-tour{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+   
+    
+}
+.tour-tx{
+    width: 578px;
+    height: 470px;
+}
+.tour-pic{
+    width: 540px;
+    height: 550px;
+}
+
+.popular-tour img{
+    border-radius: 10px;
+    
+}
+
+.heading{
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: "Merriweather", serif;
+}
+.btn-1{
+    width: 175px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #ff5400;
+    color: white;
+    
+}
+.btn-1:hover{
+    background-color: rgb(119, 185, 188);
+    color: black;
+    box-shadow: 10px 10px 10px gray;
+}
+
+@media screen and (max-width: 576px) {
+
+    .popular-tour{
+        flex-direction: column;
+    }
+    .tour-tx{
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-1{
+        margin-bottom: 20px;
+    }
+    .popular-tour img{
+        width: 90%;
+        height: 100%;
+    }
+  
+    
+}

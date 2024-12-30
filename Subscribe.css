@@ -1,0 +1,74 @@
+
+.Subscribe-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.Subscribe-tx{
+    width: 474px;
+    border: 2px solid #ff5400;
+    height: 425px;
+    padding: 20px;
+    line-height: 30px;
+    border-radius: 15px;
+}
+
+.Subscribe-tx h2{
+    margin: 20px auto;
+}
+.Subscribe-pic{
+    width: 672px;
+    height: 425px;
+    background-image: url(./Image/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: initial;
+    position: relative;
+    border-radius: 15px;
+}
+.coupon{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 30%;
+    
+}
+.coupon img{
+    width: 324px;
+}
+
+
+.Subscribe-tx input{
+    width: 393px;
+    height: 52px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.21);
+}
+
+@media screen and (max-width: 576px) {
+    .Subscribe-container{
+        flex-direction: column;
+        
+    }
+    .Subscribe-tx{
+        width: 100%;
+        height: 100%;
+    }
+  
+
+   .Subscribe-pic{
+    width: 480px;
+    height: 425px;
+    margin-top: 20px;
+   }
+   .coupon img{
+    width: 230px;
+   }
+  
+}

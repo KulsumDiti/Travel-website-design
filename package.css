@@ -1,0 +1,49 @@
+
+.package-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.package-tx{
+    width: 48%;
+    padding: 20px;
+    height: 425px;
+}
+.package-video{
+    width: 48%;
+    height: 425px;
+}
+
+.package-video iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.package-btn{
+    margin: 50px auto; 
+    width: 100%; 
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+     
+    .package-btn{
+        display: none;
+    }
+    .package-container{
+        flex-direction: column;
+        
+    }
+    .package-tx{
+        width: 100%;
+        height: 100%;
+    }
+    .package-video{
+        width: 100%;
+        height: 100%;
+    }
+
+}
